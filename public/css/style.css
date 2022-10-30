@@ -45,6 +45,7 @@ a {
 /* Chat Page */
 
 .chat-container {
+	box-shadow: 5px 5px 5px black;
 	max-width: 1100px;
 	background: #fff;
 	margin: 30px auto;
@@ -134,6 +135,7 @@ a {
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
+	box-shadow: 5px 5px 5px black;
 	color: #fff;
 }
 
@@ -197,4 +199,8 @@ a {
 	box-sizing: border-box;
 	border: black 1px solid;
 	background-color: var(--light-color-c);
+}
+
+body {
+	background-image: url("E:/Nimit/Hacktober/js313/socketio-chat/public/images/backdrop.jpg");
 }
