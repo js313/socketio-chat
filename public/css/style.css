@@ -6,6 +6,7 @@
 	--dark-color-c: #fab73b;
 	--dark-color-d: #fdca6c;
 	--light-color-a: #e6e9ff;
+	--light-color-d: #d9ddfc;
 	--light-color-b: #fcf6ed;
 	--light-color-c: #fdeed0;
 	--success-color: #5cb85c;
@@ -203,4 +204,47 @@ a {
 
 body {
 	background-image: url("E:/Nimit/Hacktober/js313/socketio-chat/public/images/backdrop.jpg");
+}
+
+#change_theme {
+	float: right;
+	margin-right: 3em;
+	border: black 10rem;
+	box-shadow: 7px 7px 5px black;
+}
+
+#change_theme img {
+	width: 4em;
+	height: 4em;
+}
+
+#change_theme:hover {
+	box-shadow: 4px 4px 5px black;
+	margin-top: .2em;
+}
+
+#change_theme:active {
+	box-shadow: none;
+	margin-top: .5em;
+	/* margin-left: .5em; */
+}
+
+.changed_background_a {
+	background: var(--dark-color-a);
+}
+
+.changed_font_a {
+	color: var(--dark-color-a);
+}
+
+.changed_background_b {
+	background: var(--dark-color-b);
+}
+
+.change_btn_background:hover {
+	background: var(--light-color-d);
+}
+
+.change_btn_background {
+	background: var(--light-color-a);
 }
